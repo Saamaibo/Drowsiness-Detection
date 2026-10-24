@@ -1,0 +1,10 @@
+opencv-python>=4.8
+# dlib-bin is dlib with prebuilt wheels (no C++ compiler / CMake needed).
+# If you already have dlib installed or prefer to build it, use `dlib` instead.
+dlib-bin
+imutils>=0.5.4
+numpy>=1.24
+matplotlib>=3.7
+# 1.2.2 installs cleanly; newer releases often fail to build.
+playsound==1.2.2
+jupyter>=1.0

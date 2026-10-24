@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# dlib landmark model (~100 MB, non-commercial license): get it with `python download_model.py`
+Model/
+*.dat
+*.dat.bz2
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
