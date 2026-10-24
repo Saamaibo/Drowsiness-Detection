@@ -53,9 +53,8 @@ Run the cells in order. A video window opens, and pressing `q` in it quits and s
 - **One shared counter.** If several faces are in view, they all update the same counter.
 - This is a hobby project, not a safety system, so don't rely on it to stay safe while driving.
 
-## Licenses and credits
+## Credits
 
-- Code: [MIT](LICENSE).
 - **Landmark model:** `shape_predictor_68_face_landmarks.dat` comes from [dlib-models](https://github.com/davisking/dlib-models) and was trained on the iBUG 300-W dataset, whose license **excludes commercial use**. That's why the file is downloaded rather than included here, and why the model can't be used in a commercial product.
 - EAR comes from Soukupová and Čech, *Real-Time Eye Blink Detection using Facial Landmarks* (2016).
 - `assets/alarm.wav` was generated for this project.
